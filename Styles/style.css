@@ -1,0 +1,121 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: white;
+}
+::selection {
+    color: white; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    color: white; /* Gecko Browsers */
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+.Main {
+    text-align:center;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    background: url(../Images/pexels-photo-248700.jpeg) no-repeat center bottom;
+    background-size: cover;
+}
+.containerMain{
+    position:absolute;
+    width:60%;
+    min-width:30%;
+    left:20%;
+    height:auto;
+    top:12.5%;
+    background-color: rgba(0,0,0,0.4);
+}
+.toolbar{
+    width:100%;
+    position: relative;
+    background-color: white;
+    height:70px;
+    opacity:0.5;
+}
+table{
+    width:100%;
+    height:100%;
+}
+table,th,td{
+    border:1px solid rgba(5, 5, 5,0.8);
+    border-collapse:collapse;
+    opacity:0.85;
+    text-align:center;
+}
+th {
+    background-color: #EBEBEB;
+    opacity:0.91;
+    height:30px;
+}
+td{
+    height:25px;
+    background-color: rgba(42, 34, 34, 0.91);
+    color:white;
+    font-size:25px;
+}
+#inputYear{
+    position: absolute;
+    top:16px;
+    left:20px;
+    height:35px;
+    width:150px;
+    font-size:19px;
+    font-family: 'Great Vibes', cursive;
+    background-color: rgba(42,34,34,0.91);
+    border-style:none;
+    text-align: center;
+    color:white;
+}
+#inputMonth{
+    position: absolute;
+    top:16px;
+    left:190px;
+    height:35px;
+    width:150px;
+    font-size:20px;
+    font-family: 'Great Vibes', cursive;
+    background-color: rgba(42,34,34,0.91);
+    border-style:none;
+    text-align: center;
+    color: white;
+}
+#date{
+    position: absolute;
+    top:-5px;
+    right:20px;
+    height:35px;
+    width:250px;
+    font-size:20px;
+    font-family: 'Great Vibes', cursive;
+    background-color: rgba(42,34,34,0.91);
+    border-style:none;
+    text-align: center;
+    color: white;
+}
+.copyright {
+    color: #8E8E8E;
+    position: absolute;
+    bottom:100px;
+    left:41.9%;
+    font-size:25px;
+}
+
